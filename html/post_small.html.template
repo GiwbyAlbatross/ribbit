@@ -1,0 +1,10 @@
+<div class='w3-container'>
+	<div class='w3-container w3-card w3-indigo w3-hover-deep-purple' style='margin: 5px; padding: 5px;'>
+		<a href='{post_url}'><h3>{post_title}</h3></a>
+		<hr>
+		<p>{post_body}</p>
+	</div>
+	<br>
+	<hr>
+	<br>
+</div>

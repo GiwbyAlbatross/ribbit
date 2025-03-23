@@ -1,0 +1,26 @@
+<!-- goes in the main_content= box in basic.html.template -->
+
+<div>
+<h1>{section_name}</h1>
+<div style="display: flex;">
+	<div style="flex-grow: 2">
+		<div>
+			<h3>Welcome to Ribbit, the friendlier, more frog-oriented alternative to reddit</h3>
+		</div>
+		<div>
+			<div style="display: flex; padding: 5px; margin: 10px;" class="w3-container w3-lime">
+				<div style="flex-grow: 1">
+					<a href="/newpost/" class="w3-button w3-light-green">+ post</a>
+				</div>
+				<div style="flex-grow: 3"></div>
+				<div style="flex-grow: 2" class="w3-hide-small"></div>
+			</div>
+
+			{feed}
+		</div>
+	</div>
+	<div style="flex-grow: 1" class='w3-hide-small'>
+		{sidebar}
+	</div>
+</div>
+</div>

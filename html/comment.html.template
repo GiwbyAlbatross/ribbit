@@ -1,0 +1,10 @@
+<div class='w3-container'>
+	<div style='display: flex;>
+		<div><img src="{user_icon_href}" width="10%"> <!-- maybe just use hardcoded size 32px --></div>
+		<div><h5>{commenter_uname}</h5></div>
+		<div><p>{how_long_ago}</p> <!-- Maybe send to server an actuall 'seconds since epoch' time and so JavaScript (on the client side) can convert it into a user-readable time --></div>
+	</div>
+	<div>
+		<p>{comment_body}</p>
+	</div>
+</div>

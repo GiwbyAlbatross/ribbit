@@ -1,0 +1,14 @@
+* {
+	margin: 15px;
+}
+
+.flex-container {
+	display: flex;
+}
+.justify-right {
+	justify-self: right;
+}
+
+.ribbit-dark {
+	background-color: #11053b;
+}
