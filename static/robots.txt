@@ -1,0 +1,7 @@
+User-agent: *
+Crawl-delay: 10
+Disallow: /_/
+
+# get out of here chatGPT, you are ruining everything
+User-agent: GPTBot
+Disallow: /
